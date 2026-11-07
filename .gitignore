@@ -1,0 +1,52 @@
+# === 本仓库只归档文本；上游工具本地另存 ===
+# tool/ 是上游 https://github.com/qianlicaoemma-hub/youtube-caption-tool 的本地克隆，
+# 自带 .git / .venv / .env / outputs，不纳入本归档仓库。
+/tool/
+
+# Secrets / local tool state (若日后改用 submodule 仍适用)
+.env
+**/.env
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Tool runtime scratch (defense in depth)
+tool/app/outputs/
+tool/app/tmp/
+**/downloads/
+**/.cache/
+
+# Large media / archives — never commit
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.m4a
+*.mp3
+*.wav
+*.aac
+*.flac
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.dmg
+*.iso
+*.docx
+*.pdf
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
