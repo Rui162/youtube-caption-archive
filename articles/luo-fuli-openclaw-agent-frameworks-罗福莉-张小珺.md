@@ -13,6 +13,8 @@
 
 ## 全文归档位置
 
+- **可读对话稿（带时间戳、分说话人，启发式）：** [`transcripts/clean/罗福莉-张小珺-OpenClaw对谈-可读稿.md`](../transcripts/clean/罗福莉-张小珺-OpenClaw对谈-可读稿.md)
+
 - Raw：[`transcripts/raw/luo-fuli-openclaw-agent-frameworks-罗福莉-张小珺.md`](../transcripts/raw/luo-fuli-openclaw-agent-frameworks-罗福莉-张小珺.md)
 - Raw（日期 ID）：[`transcripts/raw/2026-11-07-V9eI-t3TApE.md`](../transcripts/raw/2026-11-07-V9eI-t3TApE.md)
 - Clean：[`transcripts/clean/luo-fuli-openclaw-agent-frameworks-罗福莉-张小珺.md`](../transcripts/clean/luo-fuli-openclaw-agent-frameworks-罗福莉-张小珺.md)
